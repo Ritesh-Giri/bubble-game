@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.game {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(133, 209, 133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-section {
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.p-top {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(5, 150, 5);
+  display: flex;
+  justify-content: space-evenly;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  font-size: 25px;
+}
+.box {
+  padding: 8px 24px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+h2 {
+  font-size: 25px;
+  color: rgb(5, 150, 5);
+}
+.p-btm {
+  width: 100%;
+  height: calc(90%);
+  background-color: rgb(190, 233, 190);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: rgb(5, 150, 5);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bubble:hover {
+  background-color: rgb(5, 121, 5);
+  cursor: pointer;
+}
+h4 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
